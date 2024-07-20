@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="./css/dashboard.css">
 </head>
 <body>
+    <?php
+    session_start(); // Resume existing session or start a new one
+
+    // Example of checking if user is logged in
+    if (!isset($_SESSION['user_id'])) {
+        // Redirect to login page
+        header('Location: index.html');
+        exit();
+    }
+    ?>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">Safe Route</a>
