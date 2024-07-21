@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['user_id'] = $id;
 
             // Redirect to the main website page
-            header("Location: dashboard.html");
+            header("Location: dashboard.php");
             exit();
         } else {
             // Invalid password
