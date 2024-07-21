@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="./css/dashboard.css">
 </head>
 <body>
+<<<<<<< HEAD:dashboard.php
   <?php
+=======
+    <?php
+>>>>>>> cda23b9085bc9b837993a721ef7c7554abc921c8:dashboard.html
     session_start(); // Resume existing session or start a new one
 
     // Example of checking if user is logged in
