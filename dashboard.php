@@ -6,14 +6,12 @@
     <title>Tech Skool</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
     <link rel="stylesheet" href="./css/dashboard.css">
 </head>
 <body>
-<<<<<<< HEAD:dashboard.php
-  <?php
-=======
     <?php
->>>>>>> cda23b9085bc9b837993a721ef7c7554abc921c8:dashboard.html
     session_start(); // Resume existing session or start a new one
 
     // Example of checking if user is logged in
@@ -35,16 +33,19 @@
                 <a class="nav-link active" aria-current="page" href="./dashboard.html">Dashboard</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./real-timeinformation.html">Real_traffic</a>
+                <a class="nav-link" href="./real-timeinformation.php">Real_traffic</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./routesuggestion.html">Route_suggestion</a>
+                <a class="nav-link" href="./routesuggestion.php">Route_suggestion</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./safedrivingpractices.html">Safe_driving</a>
+                <a class="nav-link" href="./safedrivingpractices.php">Safe_driving</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
+                <a class="nav-link" href="./about.php">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./logout.php">Logout<i class="bi bi-box-arrow-right lg"></i></a>
               </li>
             </ul>
           </div>
@@ -54,28 +55,28 @@
     <div class="app-container">
         <div class="row g-4">
             <div class="col-6 col-md-3">
-                <a class="text-decoration-none" href="./real-timeinformation.html">
+                <a class="text-decoration-none" href="./real-timeinformation.php">
                 <div class="app-section">
                     <img src="./images/traffic.png" alt="real">
                     <h1>Real-time traffic information</h1>
                 </div></a>
             </div>
             <div class="col-6 col-md-3">
-                <a class="text-decoration-none" href="./routesuggestion.html">
+                <a class="text-decoration-none" href="./routesuggestion.php">
                 <div class="app-section">
                     <img src="./images/route.png" alt="route">
                     <h1>Route suggestion</h1>
                 </div></a>
             </div>
             <div class="col-6 col-md-3">
-                <a class="text-decoration-none" href="safedrivingpractices.html">
+                <a class="text-decoration-none" href="safedrivingpractices.php">
                 <div class="app-section">
                     <img src="./images/driving.png" alt="driving">
                     <h1>Safe driving practise</h1>
                 </div></a>
             </div>
             <div class="col-6 col-md-3">
-                <a class="text-decoration-none" href="./about.html">
+                <a class="text-decoration-none" href="./about.php">
                 <div class="app-section">
                     <img src="./images/about.png" alt="about">
                     <h1>About</h1>
