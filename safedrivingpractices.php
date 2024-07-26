@@ -4,14 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Safe Route - Revolutionizing Urban Mobility and Driving Safety</title>
+  <link rel="icon" href="./images/Safe Route Logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="./css/safedrivingpractices.css">
 
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Safe Route</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./dashboard.html">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./real-timeinformation.php">Real_traffic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./routesuggestion.php">Route_suggestion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./safedrivingpractices.php">Safe_driving</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.php">About</a>
+              </li>
+              <li class="nav-item">
+              <button class="logout-button" onclick="window.location.href='./logout.php'">Logout <i class="bi bi-box-arrow-right lg"></i></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
   <main>
     <section class="hero">
       <h1>Safe Driving Practices</h1>
@@ -189,7 +223,7 @@
 
   
   <footer>
-    <p>&copy; 2024 Safe Route. All rights reserved. | Powered by <a href="https://www.techskool.org/">Techskool Education</a><img src="./images/techlogo.png" alt="TechSkool Logo"></p>
+    <p>&copy; 2024 Safe Route. All rights reserved. | Powered by <a href="https://www.techskool.org/">Tech Skool Education</a><img src="./images/techlogo.png" alt="TechSkool Logo"></p>
     <div>
       <a href="https://x.com/techskooledu">X</a> | <a href="https://www.instagram.com/techskooledu/">Instagram</a> | <a href="https://ng.linkedin.com/company/techskooledu">LinkedIn</a>
     </div>
