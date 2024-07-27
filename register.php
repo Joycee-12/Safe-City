@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Execute the insertion statement
         if ($insert_stmt->execute()) {
             // Redirect to the main website page
-            header("Location: dashboard.html");
+            header("Location: dashboard.php");
             exit();
         } else {
             echo "Error: " . $insert_stmt->error;

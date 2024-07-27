@@ -240,15 +240,4 @@ footer img {
     margin-left: 1rem;
   }
 }
-.logout-button {
-  background-color: #005a44; /* Green */
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 25px; /* Curved shape */
-  cursor: pointer;
-}
+

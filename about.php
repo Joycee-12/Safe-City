@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Safe Route - Revolutionizing Urban Mobility and Driving Safety</title>
+  <link rel="icon" href="./images/Safe Route Logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -15,29 +16,29 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Safe Route</a>
+        <a class="navbar-brand text-success " href="index.html"><img class="img-fluid" src="./images/Safe Route Transparent logo.png" style="width: 200px;" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./dashboard.html">Dashboard</a>
+                <a class="nav-link active" aria-current="page" href="./dashboard.php">Dashboard</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./real-timeinformation.php">Real_traffic</a>
+                <a class="nav-link" href="./real-timeinformation.php">Real Traffic</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./routesuggestion.php">Route_suggestion</a>
+                <a class="nav-link" href="./routesuggestion.php">Route Suggestion</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./safedrivingpractices.php">Safe_driving</a>
+                <a class="nav-link" href="./safedrivingpractices.php">Safe Driving</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./logout.php">Logout <i class="bi bi-box-arrow-right lg"></i></a>
+              <button class="logout-button btn btn-success rounded-pill" onclick="window.location.href='./logout.php'">Logout <i class="bi bi-box-arrow-right lg"></i></button>
               </li>
             </ul>
           </div>
